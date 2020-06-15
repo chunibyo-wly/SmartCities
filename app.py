@@ -1,6 +1,9 @@
 from importlib import import_module
 import os
-from flask import Flask, render_template, Response
+import base64
+
+import cv2
+from flask import Flask, render_template, Response, jsonify
 
 # if os.environ.get('CAMERA'):
 #     Camera = import_module('camera_' + os.environ['CAMERA']).Camera
@@ -32,5 +35,10 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
+@app.route('/box')
+def get_box():
+    return jsonify([base64.b64encode(cv2.imencode('.jpg', i)[1]).decode('utf-8') for i in Camera().person_list])
+
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', threaded=True)
+    app.run(host='0.0.0.0', port=5000, threaded=True)
