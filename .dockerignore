@@ -60,3 +60,5 @@ LICENSE
 __pycache__
 
 data
+nohup.out
+input

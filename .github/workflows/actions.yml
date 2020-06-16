@@ -1,4 +1,4 @@
-name: cities
+name: build
 on:
   push:
     branches: [ master ]
