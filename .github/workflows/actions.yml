@@ -17,3 +17,9 @@ jobs:
           repository: chunibyo/cities
           tags: latest
           cache_froms: chunibyo/cities:latest
+      - name: Docker Hub Description
+        uses: peter-evans/dockerhub-description@v2.1.0
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
+          DOCKERHUB_REPOSITORY: chunibyo/cities
