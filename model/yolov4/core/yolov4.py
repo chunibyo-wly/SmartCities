@@ -1,6 +1,5 @@
 import numpy as np
 import tensorflow as tf
-from . import utils
 from . import common
 from . import backbone
 

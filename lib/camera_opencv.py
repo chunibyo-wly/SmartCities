@@ -1,11 +1,12 @@
 import os
 import cv2
+
+from conf import input_conf
 from lib.base_camera import BaseCamera
 
 
 class Camera(BaseCamera):
-    # video_source = "./data/stlucia_testloop.avi"
-    video_source = 0
+    video_source = input_conf.VIDEO_SOURCE
 
     def __init__(self):
         if os.environ.get('OPENCV_CAMERA_SOURCE'):

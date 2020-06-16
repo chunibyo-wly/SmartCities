@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-import lib.yolov4.tf as yolo
+import model.yolov4.tf as yolo
 
 detector = yolo.YoloV4(
     names_path="./data/darknet/coco.names",
