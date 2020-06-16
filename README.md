@@ -1,8 +1,9 @@
-<div align="center">
+<h1 align="center">
 <img src="img/logo.png" alt="">
+
 [![Actions Status][https://github.com/chunibyo-wly/SmartCities/workflows/build/badge.svg]][https://github.com/chunibyo-wly/SmartCities/actions]
 [![Docker Pulls][https://img.shields.io/docker/pulls/chunibyo/cities]][https://hub.docker.com/r/chunibyo/cities]
-</div>
+</h1>
 
 # :jack_o_lantern: 感谢
 
