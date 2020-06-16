@@ -1,9 +1,13 @@
 <h1 align="center">
 <img src="img/logo.png" alt="">
 
-[![Actions Status][https://github.com/chunibyo-wly/SmartCities/workflows/build/badge.svg]][https://github.com/chunibyo-wly/SmartCities/actions]
-[![Docker Pulls][https://img.shields.io/docker/pulls/chunibyo/cities]][https://hub.docker.com/r/chunibyo/cities]
+[![Actions Status][s0]][l0] [![Docker Pulls][s1]][l1]
 </h1>
+
+[s0]: https://github.com/chunibyo-wly/SmartCities/workflows/build/badge.svg
+[l0]: https://github.com/chunibyo-wly/SmartCities/actions
+[s1]: https://img.shields.io/docker/pulls/chunibyo/cities
+[l1]: https://hub.docker.com/r/chunibyo/cities
 
 # :jack_o_lantern: 感谢
 
