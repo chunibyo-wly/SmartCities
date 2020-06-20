@@ -8,7 +8,7 @@ import model.yolov4.tf as yolo
 from argparse import ArgumentParser
 
 parser = ArgumentParser()
-parser.add_argument("-s", "--stream", dest="STREAM", default="http://172.17.0.1:8888/video_feed")
+parser.add_argument("-s", "--stream", dest="STREAM", default="http://172.17.0.1:8800/video_feed")
 parser.add_argument("-n", "--names", dest="NAMES_PATH", default="./data/darknet/coco.names")
 parser.add_argument("-w", "--weights", dest="WEIGHTS_PATH", default="./data/darknet/yolov4.weights")
 
