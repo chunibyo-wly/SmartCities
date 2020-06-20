@@ -62,3 +62,7 @@ __pycache__
 data
 nohup.out
 input
+
+model/pose/trained_models
+
+output.MOV
