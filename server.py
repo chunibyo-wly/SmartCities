@@ -12,7 +12,7 @@ parser.add_argument("-s", "--stream", dest="STREAM", default="http://172.17.0.1:
 parser.add_argument("-n", "--names", dest="NAMES_PATH", default="./data/darknet/coco.names")
 parser.add_argument("-w", "--weights", dest="WEIGHTS_PATH", default="./data/darknet/yolov4.weights")
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates",static_folder="static", static_url_path="/")
 
 
 @app.route('/')
@@ -38,7 +38,7 @@ def video_feed():
 
 @app.route('/box')
 def get_box():
-    return jsonify([base64.b64encode(cv2.imencode('.jpg', i)[1]).decode('utf-8') for i in Camera().person_list])
+    return jsonify(Camera.attribute_list)
 
 
 def init():
