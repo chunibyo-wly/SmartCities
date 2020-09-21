@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>创建地图场景</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            margin: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script src="https://unpkg.com/@antv/l7"></script>
+<script type="module">
+    const scene = new L7.Scene({
+        id: 'map',
+        map: new L7.GaodeMap({
+            pitch: 35.210526315789465,
+            style: 'dark',
+            center: [114.6171395, 30.4575759],
+            zoom: 10.5,
+            token: '028606fffd2e740384871f0eedc153cb',
+            plugin: [],
+        })
+    });
+    scene.on('loaded', () => {
+        const popup = new L7.Popup({
+            offsets: [0, 20]
+        }).setText('hello');
+        const marker = new L7.Marker()
+            .setLnglat([114.6171395, 30.457575])
+            .setPopup(popup);
+        scene.addMarker(marker);
+        document.getElementsByClassName("l7-ctrl-logo")[0].style.visibility = 'hidden';
+    });
+</script>
+</body>
+</html>

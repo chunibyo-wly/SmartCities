@@ -1,0 +1,377 @@
+{
+    "duke": {
+        "bag": [
+            "carrying bag",
+            [
+                "no",
+                "yes"
+            ]
+        ],
+        "upred": [
+            "color of upper-body clothing",
+            [
+                null,
+                "red"
+            ]
+        ],
+        "upblue": [
+            "color of upper-body clothing",
+            [
+                null,
+                "blue"
+            ]
+        ],
+        "hat": [
+            "wearing hat",
+            [
+                "no",
+                "yes"
+            ]
+        ],
+        "shoes": [
+            "color of shoes",
+            [
+                "dark",
+                "light"
+            ]
+        ],
+        "downgreen": [
+            "color of lower-body clothing",
+            [
+                null,
+                "green"
+            ]
+        ],
+        "downbrown": [
+            "color of lower-body clothing",
+            [
+                null,
+                "brown"
+            ]
+        ],
+        "downred": [
+            "color of lower-body clothing",
+            [
+                null,
+                "red"
+            ]
+        ],
+        "upgreen": [
+            "color of upper-body clothing",
+            [
+                null,
+                "green"
+            ]
+        ],
+        "handbag": [
+            "carrying handbag",
+            [
+                "no",
+                "yes"
+            ]
+        ],
+        "downblue": [
+            "color of lower-body clothing",
+            [
+                null,
+                "blue"
+            ]
+        ],
+        "downblack": [
+            "color of lower-body clothing",
+            [
+                null,
+                "black"
+            ]
+        ],
+        "backpack": [
+            "carrying backpack",
+            [
+                "no",
+                "yes"
+            ]
+        ],
+        "downwhite": [
+            "color of lower-body clothing",
+            [
+                null,
+                "white"
+            ]
+        ],
+        "upblack": [
+            "color of upper-body clothing",
+            [
+                null,
+                "black"
+            ]
+        ],
+        "gender": [
+            "gender",
+            [
+                "male",
+                "female"
+            ]
+        ],
+        "downgray": [
+            "color of lower-body clothing",
+            [
+                null,
+                "gray"
+            ]
+        ],
+        "boots": [
+            "wearing boots",
+            [
+                "no",
+                "yes"
+            ]
+        ],
+        "uppurple": [
+            "color of upper-body clothing",
+            [
+                null,
+                "purple"
+            ]
+        ],
+        "top": [
+            "length of upper-body clothing",
+            [
+                "short upper body clothing",
+                "long"
+            ]
+        ],
+        "upbrown": [
+            "color of upper-body clothing",
+            [
+                null,
+                "brown"
+            ]
+        ],
+        "upgray": [
+            "color of upper-body clothing",
+            [
+                null,
+                "gray"
+            ]
+        ],
+        "upwhite": [
+            "color of upper-body clothing",
+            [
+                null,
+                "white"
+            ]
+        ]
+    },
+    "market": {
+        "bag": [
+            "carrying bag",
+            [
+                "无",
+                "是"
+            ]
+        ],
+        "upred": [
+            "color of upper-body clothing",
+            [
+                null,
+                "红色"
+            ]
+        ],
+        "upblue": [
+            "color of upper-body clothing",
+            [
+                null,
+                "蓝色"
+            ]
+        ],
+        "hat": [
+            "wearing hat",
+            [
+                "无",
+                "是"
+            ]
+        ],
+        "downgreen": [
+            "color of lower-body clothing",
+            [
+                null,
+                "绿色"
+            ]
+        ],
+        "downbrown": [
+            "color of lower-body clothing",
+            [
+                null,
+                "棕色"
+            ]
+        ],
+        "upyellow": [
+            "color of upper-body clothing",
+            [
+                null,
+                "黄色"
+            ]
+        ],
+        "up": [
+            "sleeve length",
+            [
+                "长袖",
+                "短袖"
+            ]
+        ],
+        "upgreen": [
+            "color of upper-body clothing",
+            [
+                null,
+                "绿色"
+            ]
+        ],
+        "handbag": [
+            "carrying handbag",
+            [
+                "无",
+                "是"
+            ]
+        ],
+        "downgray": [
+            "color of lower-body clothing",
+            [
+                null,
+                "灰色"
+            ]
+        ],
+        "clothes": [
+            "type of lower-body clothing",
+            [
+                "裙子",
+                "裤子"
+            ]
+        ],
+        "adult": [
+            "age",
+            [
+                null,
+                "成人"
+            ]
+        ],
+        "downblack": [
+            "color of lower-body clothing",
+            [
+                null,
+                "黑色"
+            ]
+        ],
+        "backpack": [
+            "carrying backpack",
+            [
+                "无",
+                "是"
+            ]
+        ],
+        "downwhite": [
+            "color of lower-body clothing",
+            [
+                null,
+                "白色"
+            ]
+        ],
+        "upblack": [
+            "color of upper-body clothing",
+            [
+                null,
+                "黑色"
+            ]
+        ],
+        "gender": [
+            "gender",
+            [
+                "男",
+                "女"
+            ]
+        ],
+        "downyellow": [
+            "color of lower-body clothing",
+            [
+                null,
+                "黄色"
+            ]
+        ],
+        "downpink": [
+            "color of lower-body clothing",
+            [
+                null,
+                "粉色"
+            ]
+        ],
+        "old": [
+            "age",
+            [
+                null,
+                "老人"
+            ]
+        ],
+        "down": [
+            "length of lower-body clothing",
+            [
+                "长",
+                "短"
+            ]
+        ],
+        "uppurple": [
+            "color of upper-body clothing",
+            [
+                null,
+                "紫色"
+            ]
+        ],
+        "downpurple": [
+            "color of lower-body clothing",
+            [
+                null,
+                "紫色"
+            ]
+        ],
+        "young": [
+            "age",
+            [
+                null,
+                "小孩"
+            ]
+        ],
+        "teenager": [
+            "age",
+            [
+                null,
+                "青年"
+            ]
+        ],
+        "hair": [
+            "hair length",
+            [
+                "长发",
+                "短发"
+            ]
+        ],
+        "downblue": [
+            "color of lower-body clothing",
+            [
+                null,
+                "蓝色"
+            ]
+        ],
+        "upgray": [
+            "color of upper-body clothing",
+            [
+                null,
+                "灰色"
+            ]
+        ],
+        "upwhite": [
+            "color of upper-body clothing",
+            [
+                null,
+                "白色"
+            ]
+        ]
+    }
+}
