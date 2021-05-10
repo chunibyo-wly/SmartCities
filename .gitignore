@@ -60,3 +60,5 @@ nohup.out
 data/trained_models
 
 output.MOV
+
+venv

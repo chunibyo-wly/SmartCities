@@ -3,12 +3,12 @@ import base64
 import cv2
 from flask import Flask, render_template, Response, jsonify
 
-from lib.camera_predict import Camera
-import model.yolov4.tf as yolo
+from lib.light_camera import Camera
+# import model.yolov4.tf as yolo
 from argparse import ArgumentParser
 
 parser = ArgumentParser()
-parser.add_argument("-s", "--stream", dest="STREAM", default="http://172.17.0.1:8800/video_feed")
+parser.add_argument("-s", "--stream", dest="STREAM", default="http://localhost:8889/video_feed")
 parser.add_argument("-n", "--names", dest="NAMES_PATH", default="./data/darknet/coco.names")
 parser.add_argument("-w", "--weights", dest="WEIGHTS_PATH", default="./data/darknet/yolov4.weights")
 
@@ -44,10 +44,10 @@ def get_box():
 def init():
     args = parser.parse_args()
     Camera.video_source = args.STREAM
-    Camera.detector = yolo.YoloV4(
-        names_path=args.NAMES_PATH,
-        weights_path=args.WEIGHTS_PATH,
-    )
+    # Camera.detector = yolo.YoloV4(
+    #     names_path=args.NAMES_PATH,
+    #     weights_path=args.WEIGHTS_PATH,
+    # )
 
 
 if __name__ == '__main__':
